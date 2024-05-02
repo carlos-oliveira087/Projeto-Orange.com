@@ -1,0 +1,565 @@
+body {
+    margin: 0;
+    background-color: #F5F5F7;
+}
+
+
+.estilo1 {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+}
+
+.estilo2 {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;               
+}
+
+.estilo3 {
+    font-size: 12px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 40px;
+    text-decoration: none;   
+    color:rgb(0, 0, 0)    
+}
+
+.estilo4 {
+    font-size: 13px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 40px;
+    text-decoration: none;   
+    color: grey;
+    width: 60%;                   
+}
+
+
+.tabela {
+    background-color: #FFFFFF;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;           
+}
+
+.table {
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 4px darkgrey;
+    border-style:groove;
+}
+
+
+
+.lista {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+}
+
+
+.duas-colunas {
+    display: flex;    
+}
+
+.duas-colunas2 {
+    display: flex;   
+    margin-bottom: 80px; 
+}
+
+.tres-colunas {
+    display: flex;
+    margin-top: 20px;
+}
+
+.coluna1 {
+    background-color: #FFFFFF;
+    width: 33.33%;
+    padding: 50px;             
+}
+
+.coluna2 {
+    background-color: coral;
+    width: 33.33%;
+    padding: 50px;               
+}
+
+.coluna3 {
+    background-color:  #FFFFFF;
+    width: 33.33%;  
+    padding: 50px;             
+}
+
+.form {
+   width: 50%;
+   margin-left: 25%;              
+}
+
+.form input, textarea, select{
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    font-size: 14px;            
+}
+
+footer {
+    text-align: center;
+    background-color: #F5F5F7;
+    font-size: 14px;
+   
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 40px;
+
+}
+
+.footermenu {
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    color: grey;
+    font-size: 15px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(251, 251, 253, 0.97);
+    height: auto;
+    padding: 9px; 
+    margin-bottom: 0; 
+    margin-top: 0;   
+    position: absolute;
+    width: 100%;         
+}
+
+.menuu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(251, 251, 253, 0.97);
+    height: auto;
+    padding: 9px; 
+    margin-bottom: 0; 
+    margin-top: 0;   
+    position: absolute fixed;
+    width: 100%;         
+}
+
+.menuu li {
+    margin-right: -25%; 
+}
+
+
+.menuu li:last-child {
+    margin-right: 0;
+}
+
+
+.menu li {
+    margin-right: -25%; 
+}
+
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.orange {
+   position: absolute;
+   margin-left: -55%;
+   margin-top: -3px;
+
+}
+
+.orange2 {
+    position: absolute;
+    margin-left: -55%;
+    margin-top: -3px;
+ 
+ }
+    
+
+.menu a:hover {
+    background-color: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+.direitos {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links-uteis {
+    font-size: 18px;
+    background-color: coral;
+}
+     
+.checkbox input {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-left: 8px;
+}
+
+.botoes-finais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sublinha {
+    border-bottom: 1.5px solid;
+    text-decoration: none;
+}
+
+.marcado {
+    background-color: coral;
+}
+
+.banner1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.banner2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.banner3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.banner-colunas1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner4 {
+    display: flex 1;
+    width: 49.3%;
+    margin-right: 8px;   
+    margin-top: 8px;            
+}
+
+.banner5 {
+    display: flex 1;               
+    width: 50%;
+    margin-top: 8px;
+}
+
+.banner-colunas2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.banner6 {
+    display: flex 1;
+    width: 49.3%;
+    margin-right: 8px;
+    margin-top: 8px;              
+}
+
+.banner7 {
+    display: flex 1;
+    width: 50%;
+    margin-top: 8px;               
+}
+
+.banner8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.titt {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.titt2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 2px;
+    color: gray;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.titt3 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 2px;
+    color: gray;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.titt4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+    background-color: lightgrey;
+    height: 30px;
+    width: 90%;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+   
+
+.titt5 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    background-color: lightgrey;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.titt6 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 2px;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+
+.subtitt {
+    text-align: center;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 11px;
+    
+}
+
+.nmstabela {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 160px;
+    height: 25px;
+}
+
+
+.nmstabela2 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.nmstabela3 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+}
+
+.nmstabela4 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 30px;
+}
+
+.nmstabela5 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    height: 30px;
+}
+
+.nmstabela6 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: 27px;
+}
+
+li {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+#button0 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: orange;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#button1, #button3 {
+    position: absolute;
+    top: 30%;
+    left: 650px;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+}
+
+
+#button2, #button4 {
+    position: absolute;
+    top: 30%;
+    right: 500px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#button5, #button9 {
+    position: absolute;
+    top: 25%;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#button6 {
+    position: absolute;
+    top: 25%;
+    right: 950px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(202, 202, 202);
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#button7, #button11 {
+    position: absolute;
+    top: 25%;
+    left: 1065px;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#button8 {
+    position: absolute;
+    top: 25%;
+    right: 180px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#button10 {
+    position: absolute;
+    top: 25%;
+    right: 950px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#button12 {
+    position: absolute;
+    top: 25%;
+    right: 180px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(202, 202, 202);
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+}
+
+
+.container {
+    position: relative;
+    display: inline-block; 
+}
+
+.container2 {
+    position: relative;
+    display:flex; 
+}
+
