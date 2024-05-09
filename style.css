@@ -435,7 +435,7 @@ li {
 #button1, #button3 {
     position: absolute;
     top: 30%;
-    left: 650px;
+    left: 43%;
     transform: translate(-50%, -50%);
     background-color: orange;
     color: white;
@@ -455,7 +455,7 @@ li {
 #button2, #button4 {
     position: absolute;
     top: 30%;
-    right: 500px;
+    right: 34%;
     transform: translate(-50%, -50%);
     background-color: rgb(255, 255, 255);
     color: black;
