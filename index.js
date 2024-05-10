@@ -9,21 +9,6 @@ function gopage0(){
 }
 
 
-
-const button0 = document.getElementById("button0")
-const button1 = document.getElementById("button1")
-const button3 = document.getElementById("button3")
-
-button0.addEventListener("click", goCheckout)
-button1.addEventListener("click", goCheckout)
-button3.addEventListener("click", goCheckout)
-
-function goCheckout() {
-    window.location.href = "checkout.html";
-}
-
-
-
 const button5 = document.getElementById("button5")
 
 button5.addEventListener("click", gopage1)
@@ -33,7 +18,6 @@ function gopage1(){
 }
 
 
-
 const button6 = document.getElementById("button6")
 
 button6.addEventListener("click", gopage2)
@@ -41,6 +25,25 @@ button6.addEventListener("click", gopage2)
 function gopage2(){
     window.location.href = "pgslapbook.html";
 }
+
+const button11 = document.getElementById("button11")
+
+button11.addEventListener("click", gopage3)
+
+function gopage3(){
+    window.location.href = "checkout.html";
+}
+
+const button12 = document.getElementById("button12")
+
+button12.addEventListener("click", gopage4)
+
+function gopage4(){
+    window.location.href = "pgopad.html";
+}
+
+
+
 
 
 
