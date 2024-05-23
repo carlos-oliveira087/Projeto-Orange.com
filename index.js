@@ -14,7 +14,7 @@ const button5 = document.getElementById("button5")
 button5.addEventListener("click", gopage1)
 
 function gopage1(){
-    window.location.href = "checkout.html";
+    window.location.href = "checkout3.html";
 }
 
 

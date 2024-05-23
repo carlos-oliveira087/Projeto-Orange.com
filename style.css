@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+* {
+    list-style: none;
+}
+
+
 body {
     margin: 0;
     background-color: #F5F5F7;
@@ -100,13 +107,20 @@ body {
 
 .form {
    width: 50%;
-   margin-left: 25%;              
+   margin-left: 25%;
+   margin-bottom: 100px; 
+   margin-top: 50px;     
 }
 
 .form input, textarea, select{
     width: 100%;
-    background-color: rgb(0, 242, 255);
-    font-size: 14px;            
+    background-color: white;
+    font-size: 14px;   
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-color: black;
 }
 
 footer {
@@ -157,7 +171,7 @@ footer ul {
     margin-bottom: 0; 
     margin-top: 0;   
     position: absolute fixed;
-    width: 100%;         
+    width: 1500px;         
 }
 
 .menuu li {
@@ -310,7 +324,7 @@ footer ul {
     margin-top: 30px;
     margin-bottom: 2px;
     background-color: #F5F5F7;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .titt2 {
@@ -359,12 +373,27 @@ footer ul {
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
 }
 
+.titt7 {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+}
 
 .subtitt {
     text-align: center;
     background-color: #F5F5F7;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 11px;
+}
+
+.subtitt2 {
+    text-align: left;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
     
 }
 
@@ -500,7 +529,7 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#button7, #button11 {
+#button7{
     position: absolute;
     top: 25%;
     left: 1065px;
@@ -514,6 +543,25 @@ li {
     border-radius: 20px;
     width: 120px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#button11 {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 83px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
 }
 
 #button8 {
@@ -564,6 +612,40 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.button13 {
+    position: absolute;
+    top: 112%;
+    right: auto;
+    left: 530px;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1.2px;
+}
+
+.button14 {
+    position: absolute;
+    top: 112%;
+    right: 280px;
+    left: auto;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-width: 1.2px;
+}
 
 .container {
     position: relative;
@@ -573,5 +655,69 @@ li {
 .container2 {
     position: relative;
     display:flex; 
+}
+
+.product {
+    display: flex;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 95px;
+    margin-bottom: 35px;
+    width: 177px;
+    height: 105px;
+    position: fixed;
+    border-radius: 8px;
+}
+
+.product_txt {
+    display: flex;
+    margin-left: 82.6%;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    width: 177px;
+    height: 105px;
+    position: fixed;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product_txt1 {
+    display: flex;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 225px;
+    margin-bottom: 35px;
+    width: 177px;
+    height: 105px;
+    position: fixed;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product_txt2 {
+    display: flex;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 253px;
+    margin-bottom: 35px;
+    width: 177px;
+    height: 105px;
+    position: fixed;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product_txt3 {
+    display: flex;
+    margin-left: 82%;
+    margin-right: auto;
+    margin-top: 280px;
+    margin-bottom: 35px;
+    width: 177px;
+    height: 105px;
+    position: fixed;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.line0 {
+    margin-top: 40px;
 }
 
